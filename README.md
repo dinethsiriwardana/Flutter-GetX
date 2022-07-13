@@ -8,8 +8,8 @@
 
 ## Getting Started
 
-  Add Getx using pub.dev - https://pub.dev/packages/get
-  Read guid https://pub.dev/packages/get/install
+  Add Getx using pub.dev - https://pub.dev/packages/get <br>
+  Read the guid https://pub.dev/packages/get/install
 
 
   
