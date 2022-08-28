@@ -1,11 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/foundation/key.dart';
-import 'package:flutter/src/widgets/framework.dart';
 import 'package:get/get.dart';
-import 'package:getx/controllers/counterCountrollers.dart';
+import 'package:getx/controllers/counterController.dart';
 
 class OtherScreen extends StatelessWidget {
-  final CounterController _counterController = Get.find();
+  final GetController _getController = Get.find();
 
   @override
   Widget build(BuildContext context) {
@@ -16,7 +14,7 @@ class OtherScreen extends StatelessWidget {
           children: [
             Center(
                 child: Text(
-                    "Screen was Clicked ${_counterController.counter.value} times")),
+                    "${_getController.name.value} was Clicked ${_getController.counter.value} times")),
             SizedBox(
               height: 10,
             ),
